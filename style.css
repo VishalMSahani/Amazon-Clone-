@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border : border-box ;
+    
+    
+
+}
+
+.navbar{
+    background-color: #0f1111;
+    height: 60px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.nav-logo{
+    width: 100px;
+    height: 50px;
+    margin-left: 10px ;
+   
+    
+}
+
+.logo{
+    background-image: url(Images/amazon.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    background-blend-mode: multiply;
+    width: 100%;
+    margin-left: 10px ;
+    height: 50px;   
+}
+
+.border {
+    border: 1.5px  solid transparent;
+    border-radius: 5%;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+    
+     
+}
+
+.border:hover{
+    border: 2px solid white;
+}
+/* 
+box no. 2 */
+
+.address{
+    margin-left: 25px;
+    
+    align-items: center;
+}
+.address1{
+    margin-left: 16.5px;
+    font-size: 14px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.country{
+    font-size: 20px;
+    margin-left: 3px;
+}
+
+/* 
+search box */
+
+.search-box{
+    display: flex;
+    
+    width: 580px;
+    height: 45px;
+    background-color: white;
+    margin-left: 10px;
+    justify-content: space-evenly;
+    border-radius: 5px;
+}
+
+.search-icon{
+    border: none;
+    width: 60px;
+    height: 45px;
+    background-color: #f08804;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    color: #0f1111;
+    size: 10em;
+
+}
+#select{
+    background-color: #e6e6e6;
+    width: 60px;
+    text-align: center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border: none;
+}
+
+.search-space{
+    width: 100%;
+    border: none;
+}
+
+/* 
+box 3 */
+
+.location{
+    margin-left: 20px;
+    width: 73px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+
+}
+
+.flag{
+    display: flex;
+    width: 54px;
+    height: 19px;
+}
+#Lang-select{
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+/* 
+box no 4 */
+.account{
+    width: 151px;
+    height: 50px;
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    margin-top: 16px ;
+    
+}
+
+#account-list{
+    font-weight:bold;
+    list-style:none;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1em;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-name{
+    font-size: 0.8em;
+    margin-left: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 
+box 5 */
+
+.retrn-order{
+    width: 76px;
+    height: 50px;
+    margin-left: 20px;
+
+}
+
+.return{
+    font-size: .8em;
+}
+
+.order{
+    font-weight: bold;
+}
+
+/* 
+cart */
+
+.cart{
+    margin-left: 30px;
+    width: 84px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.cart-box{
+    font-size: 33px;
+    width: 38px;
+    height: 26;
+}
+
+.c-text{
+    font-size: .9em;
+    color: #f08804;
+    text-align: justify;
+}
+
+/* 
+Pannel  */
+
+.pannel{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #222f3d;
+    color: white;
+}
+
+.pannel-option {
+    width: 70%;
+}
+.pannel-option a {
+    text-decoration: none;
+    color: white;
+    margin-left: 15px;
+    font-size: 0.9em;
+
+}
+
+.menu{
+    display: flex;
+    
+    justify-content: space-between;
+    
+}
+.menu p{
+    margin-left: 5px;
+}
+
+.deals{
+    font-weight: 700;
+
+}
+/* 
+hero section */
+
+.hero-sec{
+    height: 600px;
+    width: 100%;
+    background-image: url("Images/hero.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-text{
+    background-color: #f2f6fa;
+    width: 90%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+.hero-text a{
+    text-decoration: none;
+}
