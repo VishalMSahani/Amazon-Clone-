@@ -1,6 +1,6 @@
-# Amazon-Clone- (for practic of HTML & CSS) <br>
+# Amazon-Clone- (for practice of HTML & CSS) <br>
 
-![Screenshot](image-1.png)
+![Screenshot](Images/image-1.png)
 
 
 
