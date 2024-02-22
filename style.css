@@ -26,7 +26,7 @@
 }
 
 .logo{
-    background-image: url(Images/amazon.png);
+    background-image: url(Images/Amazon\ Logo.png);
     background-size:contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -79,7 +79,7 @@ search box */
 .search-box{
     display: flex;
     
-    width: 580px;
+    width: 55%;
     height: 45px;
     background-color: white;
     margin-left: 10px;
@@ -252,7 +252,7 @@ Pannel  */
 hero section */
 
 .hero-sec{
-    height: 600px;
+    height: 450px;
     width: 100%;
     background-image: url("Images/hero.jpg");
     background-size: cover;
@@ -262,6 +262,7 @@ hero section */
 }
 
 .hero-text{
+    margin-top: 300px;
     background-color: #f2f6fa;
     width: 90%;
     height: 40px;
@@ -271,4 +272,115 @@ hero section */
 }
 .hero-text a{
     text-decoration: none;
+}
+
+/* 
+content  */
+.content {
+    width: 95%;
+    padding: 20px;
+    
+
+}
+.content-box{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 2%;
+    
+}
+.box{
+    width: 19%px;
+    height: 400px;
+    padding: 25px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+    
+  }
+  
+
+  .text-top,
+  .text-bottom {
+    margin: 15px 0;
+  }
+  .text-top{
+    font-size: 1.4em;
+    font-weight: 700;
+  }
+  .text-bottom a {
+    text-decoration: none;
+    font-size: 0.8em;
+  }
+.image-height{
+    width: 379px;
+    height: 304px;
+    background-size: cover;
+}
+  .box img {
+    background-size: cover;
+    border-radius: 3px;
+  }
+/* 
+  footer section */
+
+  .footer{
+    width: 100%;
+    height: 200px;
+    background-color: #0f1111;
+    border-top: 1px solid  #ecebeb;
+  }
+  .footer-content{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background-color: #222f3d;  
+    align-items: center;
+    justify-content: center;
+    color: #dddddd;
+    
+  }
+  
+  .logo-amz{
+    background-size: cover;
+    margin-right: 50px;
+    background-size: cover;
+
+  }
+  .footer-content p{
+    margin-left: 10px;
+    font-size: 13px;
+    
+  }
+  .footer-country img{
+    width: 20px;
+    height: 20px;
+  }
+
+
+
+  .footer-country{
+    display: flex;
+    align-items: center;
+  }
+
+ .f-border{
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    height: 34px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 15px;  
+ }
+ #select-lang{
+    background-color: transparent;
+    height: 34px;
+    color: #dddddd;
+ }
+.footer-copyright{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
 }
